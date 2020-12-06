@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="V4_DK_SMPGM"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\src\;CMake Files\src\game\;CMake Files\src\game\display\;CMake Files\src\game\gameModule\;CMake Files\src\game\system\;CMake Files\src\game\system\main\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="F:/project/V4_DK_SMPGM/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/mingw64/bin/mingw32-make.exe -f &quot;F:/project/V4_DK_SMPGM/build/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="E:/mingw64/bin/mingw32-make.exe -f &quot;F:/project/V4_DK_SMPGM/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/mingw64/bin/mingw32-make.exe -f &quot;F:/project/V4_DK_SMPGM/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/mingw64/bin/mingw32-make.exe -f &quot;F:/project/V4_DK_SMPGM/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="F:/project/V4_DK_SMPGM/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/mingw64/bin/mingw32-make.exe -f &quot;F:/project/V4_DK_SMPGM/build/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="E:/mingw64/bin/mingw32-make.exe -f &quot;F:/project/V4_DK_SMPGM/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/mingw64/bin/mingw32-make.exe -f &quot;F:/project/V4_DK_SMPGM/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/mingw64/bin/mingw32-make.exe -f &quot;F:/project/V4_DK_SMPGM/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="F:/project/V4_DK_SMPGM/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/mingw64/bin/mingw32-make.exe -f &quot;F:/project/V4_DK_SMPGM/build/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="E:/mingw64/bin/mingw32-make.exe -f &quot;F:/project/V4_DK_SMPGM/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/mingw64/bin/mingw32-make.exe -f &quot;F:/project/V4_DK_SMPGM/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/mingw64/bin/mingw32-make.exe -f &quot;F:/project/V4_DK_SMPGM/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="game">
+				<Option output="F:/project/V4_DK_SMPGM/build/src/player/libgame.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/project/V4_DK_SMPGM/build/src/player"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="e:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../include/c++/10.2.0"/>
+					<Add directory="e:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../include/c++/10.2.0/x86_64-w64-mingw32"/>
+					<Add directory="e:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../include/c++/10.2.0/backward"/>
+					<Add directory="e:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.2.0/include"/>
+					<Add directory="e:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../include"/>
+					<Add directory="e:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.2.0/include-fixed"/>
+					<Add directory="e:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/mingw64/bin/mingw32-make.exe -f &quot;F:/project/V4_DK_SMPGM/build/src/player/Makefile&quot;  VERBOSE=1 game"/>
+					<CompileFile command="E:/mingw64/bin/mingw32-make.exe -f &quot;F:/project/V4_DK_SMPGM/build/src/player/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/mingw64/bin/mingw32-make.exe -f &quot;F:/project/V4_DK_SMPGM/build/src/player/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/mingw64/bin/mingw32-make.exe -f &quot;F:/project/V4_DK_SMPGM/build/src/player/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="game/fast">
+				<Option output="F:/project/V4_DK_SMPGM/build/src/player/libgame.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/project/V4_DK_SMPGM/build/src/player"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="e:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../include/c++/10.2.0"/>
+					<Add directory="e:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../include/c++/10.2.0/x86_64-w64-mingw32"/>
+					<Add directory="e:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../include/c++/10.2.0/backward"/>
+					<Add directory="e:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.2.0/include"/>
+					<Add directory="e:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../include"/>
+					<Add directory="e:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.2.0/include-fixed"/>
+					<Add directory="e:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/mingw64/bin/mingw32-make.exe -f &quot;F:/project/V4_DK_SMPGM/build/src/player/Makefile&quot;  VERBOSE=1 game/fast"/>
+					<CompileFile command="E:/mingw64/bin/mingw32-make.exe -f &quot;F:/project/V4_DK_SMPGM/build/src/player/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/mingw64/bin/mingw32-make.exe -f &quot;F:/project/V4_DK_SMPGM/build/src/player/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/mingw64/bin/mingw32-make.exe -f &quot;F:/project/V4_DK_SMPGM/build/src/player/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="V4_DK_SMPGM">
+				<Option output="F:/project/V4_DK_SMPGM/build/src/player/system/storage/V4_DK_SMPGM.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/project/V4_DK_SMPGM/build/src/player/system/storage"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="F:/project/V4_DK_SMPGM/src/game/system/main/include"/>
+					<Add directory="e:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../include/c++/10.2.0"/>
+					<Add directory="e:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../include/c++/10.2.0/x86_64-w64-mingw32"/>
+					<Add directory="e:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../include/c++/10.2.0/backward"/>
+					<Add directory="e:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.2.0/include"/>
+					<Add directory="e:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../include"/>
+					<Add directory="e:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.2.0/include-fixed"/>
+					<Add directory="e:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/mingw64/bin/mingw32-make.exe -f &quot;F:/project/V4_DK_SMPGM/build/src/player/system/storage/Makefile&quot;  VERBOSE=1 V4_DK_SMPGM"/>
+					<CompileFile command="E:/mingw64/bin/mingw32-make.exe -f &quot;F:/project/V4_DK_SMPGM/build/src/player/system/storage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/mingw64/bin/mingw32-make.exe -f &quot;F:/project/V4_DK_SMPGM/build/src/player/system/storage/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/mingw64/bin/mingw32-make.exe -f &quot;F:/project/V4_DK_SMPGM/build/src/player/system/storage/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="V4_DK_SMPGM/fast">
+				<Option output="F:/project/V4_DK_SMPGM/build/src/player/system/storage/V4_DK_SMPGM.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/project/V4_DK_SMPGM/build/src/player/system/storage"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="F:/project/V4_DK_SMPGM/src/game/system/main/include"/>
+					<Add directory="e:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../include/c++/10.2.0"/>
+					<Add directory="e:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../include/c++/10.2.0/x86_64-w64-mingw32"/>
+					<Add directory="e:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../include/c++/10.2.0/backward"/>
+					<Add directory="e:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.2.0/include"/>
+					<Add directory="e:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../include"/>
+					<Add directory="e:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.2.0/include-fixed"/>
+					<Add directory="e:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/mingw64/bin/mingw32-make.exe -f &quot;F:/project/V4_DK_SMPGM/build/src/player/system/storage/Makefile&quot;  VERBOSE=1 V4_DK_SMPGM/fast"/>
+					<CompileFile command="E:/mingw64/bin/mingw32-make.exe -f &quot;F:/project/V4_DK_SMPGM/build/src/player/system/storage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/mingw64/bin/mingw32-make.exe -f &quot;F:/project/V4_DK_SMPGM/build/src/player/system/storage/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/mingw64/bin/mingw32-make.exe -f &quot;F:/project/V4_DK_SMPGM/build/src/player/system/storage/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="F:/project/V4_DK_SMPGM/src/game/game.cpp">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="F:/project/V4_DK_SMPGM/src/game/game.h">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="F:/project/V4_DK_SMPGM/src/game/system/main/src/main.cpp">
+			<Option target="V4_DK_SMPGM"/>
+		</Unit>
+		<Unit filename="F:/project/V4_DK_SMPGM/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="F:/project/V4_DK_SMPGM/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="F:/project/V4_DK_SMPGM/src/game/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\game\"/>
+		</Unit>
+		<Unit filename="F:/project/V4_DK_SMPGM/src/game/display/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\game\display\"/>
+		</Unit>
+		<Unit filename="F:/project/V4_DK_SMPGM/src/game/gameModule/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\game\gameModule\"/>
+		</Unit>
+		<Unit filename="F:/project/V4_DK_SMPGM/src/game/system/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\game\system\"/>
+		</Unit>
+		<Unit filename="F:/project/V4_DK_SMPGM/src/game/system/main/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\game\system\main\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

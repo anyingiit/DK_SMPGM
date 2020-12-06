@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+F:/project/V4_DK_SMPGM/src/game/system/main/include/main.h
+iostream
+-
+
+F:/project/V4_DK_SMPGM/src/game/system/main/src/main.cpp
+../include/main.h
+F:/project/V4_DK_SMPGM/src/game/system/main/include/main.h
+../../../../../src/player/include/player.h
+F:/project/V4_DK_SMPGM/src/player/include/player.h
+
+F:/project/V4_DK_SMPGM/src/player/include/player.h
+istream
+-
+

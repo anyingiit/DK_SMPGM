@@ -1,0 +1,16 @@
+F:/project/V4_DK_SMPGM/build/CMakeFiles/edit_cache.dir
+F:/project/V4_DK_SMPGM/build/CMakeFiles/rebuild_cache.dir
+F:/project/V4_DK_SMPGM/build/src/CMakeFiles/edit_cache.dir
+F:/project/V4_DK_SMPGM/build/src/CMakeFiles/rebuild_cache.dir
+F:/project/V4_DK_SMPGM/build/src/player/CMakeFiles/game.dir
+F:/project/V4_DK_SMPGM/build/src/player/CMakeFiles/edit_cache.dir
+F:/project/V4_DK_SMPGM/build/src/player/CMakeFiles/rebuild_cache.dir
+F:/project/V4_DK_SMPGM/build/src/player/display/CMakeFiles/edit_cache.dir
+F:/project/V4_DK_SMPGM/build/src/player/display/CMakeFiles/rebuild_cache.dir
+F:/project/V4_DK_SMPGM/build/src/player/gameModule/CMakeFiles/edit_cache.dir
+F:/project/V4_DK_SMPGM/build/src/player/gameModule/CMakeFiles/rebuild_cache.dir
+F:/project/V4_DK_SMPGM/build/src/player/system/CMakeFiles/edit_cache.dir
+F:/project/V4_DK_SMPGM/build/src/player/system/CMakeFiles/rebuild_cache.dir
+F:/project/V4_DK_SMPGM/build/src/player/system/storage/CMakeFiles/V4_DK_SMPGM.dir
+F:/project/V4_DK_SMPGM/build/src/player/system/storage/CMakeFiles/edit_cache.dir
+F:/project/V4_DK_SMPGM/build/src/player/system/storage/CMakeFiles/rebuild_cache.dir

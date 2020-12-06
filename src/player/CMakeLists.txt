@@ -1,0 +1,6 @@
+aux_source_directory(./ DIR_PLAYER_SRCS)
+add_library(player_static STATIC ${DIR_PLAYER_SRCS})
+add_library(player_shared SHARED ${DIR_PLAYER_SRCS})
+set_target_properties(player_shared PROPERTIES OUTPUT_NAME player)
+set_target_properties(player_shared PROPERTIES OUTPUT_NAME player)
+set (LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/src/player/lib)

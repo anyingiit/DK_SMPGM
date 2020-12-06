@@ -1,0 +1,2 @@
+E:\mingw64\bin\ar.exe qc ..\..\..\mylib\libmodule1.a  CMakeFiles/module1_static.dir/src/module1.cpp.obj
+E:\mingw64\bin\ranlib.exe ..\..\..\mylib\libmodule1.a

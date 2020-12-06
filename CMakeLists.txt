@@ -1,12 +1,15 @@
-#cmake_minimum_required(VERSION 3.17)
-#project(V4_DK_SMPGM)
-#
-#set(CMAKE_CXX_STANDARD 20)
-#
-#add_executable(V4_DK_SMPGM src/main/main.cpp)
+message(STATUS "in root CMakeLists.txt")
 
 cmake_minimum_required(VERSION 3.17)
+
 project(V4_DK_SMPGM)
-set(CMAKE_CXX_STANDARD 20)
+
 add_subdirectory(src)
-link_libraries(V4_DK_SMPGM src)
+#LINK_DIRECTORIES("${PROJECT_BINARY_DIR}/mylib")
+set(CMAKE_LIBRARY_PATH "${PROJECT_BINARY_DIR}/mylib")#添加FIND_LIBRARY默认搜索库位置
+FIND_LIBRARY(LIBS
+        libmodule1.a
+        )#在所有搜索路径下搜索N个库,并且将其绝度路径添加至LIBS变量
+message(STATUS "LIBS:" ${LIBS})
+
+TARGET_LINK_LIBRARIES(V4_DK_SMPGM ${LIBS})

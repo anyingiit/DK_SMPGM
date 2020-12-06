@@ -1,0 +1,5 @@
+message(STATUS "in main CMakeLists.txt")
+#link_libraries(../module1/include)
+aux_source_directory(./src DIR_MAIN_SRCS)
+add_executable(V4_DK_SMPGM ${DIR_MAIN_SRCS})
+message(STATUS "aaa" ${PROJECT_BINARY_DIR}/mylib)

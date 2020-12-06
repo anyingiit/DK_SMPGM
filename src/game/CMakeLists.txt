@@ -1,5 +1,3 @@
-add_subdirectory(display)
-add_subdirectory(gameModule)
-add_subdirectory(system)
-aux_source_directory(./ DIR_GAME_SRCS)
-add_library(game ${DIR_GAME_SRCS})
+message(STATUS "in game CMakeLists.txt")
+add_subdirectory(module1)
+add_subdirectory(main)

@@ -1,4 +1,2 @@
-add_subdirectory(
-        game
-        player
-)
+message(STATUS "in src CMakeLists.txt")
+add_subdirectory(game)

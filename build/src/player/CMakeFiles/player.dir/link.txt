@@ -1,2 +1,0 @@
-E:\mingw64\bin\ar.exe qc libplayer.a  CMakeFiles/player.dir/player.cpp.obj
-E:\mingw64\bin\ranlib.exe libplayer.a

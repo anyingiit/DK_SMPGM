@@ -1,3 +1,0 @@
-"E:\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\V4_DK_SMPGM.dir/objects.a
-E:\mingw64\bin\ar.exe cr CMakeFiles\V4_DK_SMPGM.dir/objects.a @CMakeFiles\V4_DK_SMPGM.dir\objects1.rsp
-E:\mingw64\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\V4_DK_SMPGM.dir/objects.a -Wl,--no-whole-archive  -o V4_DK_SMPGM.exe -Wl,--out-implib,libV4_DK_SMPGM.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\V4_DK_SMPGM.dir\linklibs.rsp

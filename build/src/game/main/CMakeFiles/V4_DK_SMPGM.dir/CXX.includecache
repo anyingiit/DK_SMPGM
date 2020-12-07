@@ -6,15 +6,3 @@
 
 #IncludeRegexTransform: 
 
-/mnt/f/project/V4_DK_SMPGM/src/game/main/include/main.h
-
-/mnt/f/project/V4_DK_SMPGM/src/game/main/src/main.cpp
-../include/main.h
-/mnt/f/project/V4_DK_SMPGM/src/game/main/include/main.h
-../../module1/include/module1.h
-/mnt/f/project/V4_DK_SMPGM/src/game/module1/include/module1.h
-
-/mnt/f/project/V4_DK_SMPGM/src/game/module1/include/module1.h
-iostream
--
-

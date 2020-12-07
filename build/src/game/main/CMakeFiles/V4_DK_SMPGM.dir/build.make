@@ -79,7 +79,8 @@ V4_DK_SMPGM_EXTERNAL_OBJECTS =
 
 src/game/main/V4_DK_SMPGM: src/game/main/CMakeFiles/V4_DK_SMPGM.dir/src/main.cpp.o
 src/game/main/V4_DK_SMPGM: src/game/main/CMakeFiles/V4_DK_SMPGM.dir/build.make
-src/game/main/V4_DK_SMPGM: mylib/libmodule1.a
+src/game/main/V4_DK_SMPGM: mylib/libmodule2.a
+src/game/main/V4_DK_SMPGM: mylib/libmodule2_static.a
 src/game/main/V4_DK_SMPGM: src/game/main/CMakeFiles/V4_DK_SMPGM.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/f/project/V4_DK_SMPGM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable V4_DK_SMPGM"
 	cd /mnt/f/project/V4_DK_SMPGM/build/src/game/main && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/V4_DK_SMPGM.dir/link.txt --verbose=$(VERBOSE)

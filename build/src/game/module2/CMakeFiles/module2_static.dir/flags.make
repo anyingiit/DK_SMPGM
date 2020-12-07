@@ -6,5 +6,5 @@ CXX_FLAGS =
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/mnt/f/project/V4_DK_SMPGM/src/game/main/./include 
+CXX_INCLUDES = -I/mnt/f/project/V4_DK_SMPGM/src/game/module2/./include 
 

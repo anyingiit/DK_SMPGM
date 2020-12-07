@@ -13,6 +13,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b2126f4b-4fde-4d9c-8160-f7a5929652a4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/game/module2/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/game/module2/include/module2.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/game/module2/src/module2.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeCache.txt" afterDir="false" />
@@ -48,6 +51,10 @@
       <change beforePath="$PROJECT_DIR$/build/src/game/module1/CMakeFiles/module1_static.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/src/game/module1/CMakeFiles/module1_static.dir/link.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/src/game/module1/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/build/src/game/module1/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/src/game/module1/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/src/game/module1/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game/main/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/main/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game/main/src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/main/src/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game/module1/src/module1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/module1/src/module1.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,6 +110,11 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -117,7 +129,7 @@
       <workItem from="1607321152112" duration="89000" />
       <workItem from="1607321265285" duration="12000" />
       <workItem from="1607321289149" duration="1403000" />
-      <workItem from="1607322846042" duration="742000" />
+      <workItem from="1607322846042" duration="2308000" />
     </task>
     <servers />
   </component>

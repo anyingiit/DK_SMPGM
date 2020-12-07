@@ -4,19 +4,17 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/mnt/f/project/V4_DK_SMPGM/src/game/main/src/main.cpp" "/mnt/f/project/V4_DK_SMPGM/build/src/game/main/CMakeFiles/V4_DK_SMPGM.dir/src/main.cpp.o"
+  "/mnt/f/project/V4_DK_SMPGM/src/game/module2/src/module2.cpp" "/mnt/f/project/V4_DK_SMPGM/build/src/game/module2/CMakeFiles/module2_static.dir/src/module2.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "../src/game/main/./include"
+  "../src/game/module2/./include"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/mnt/f/project/V4_DK_SMPGM/build/src/game/module1/CMakeFiles/module1_static.dir/DependInfo.cmake"
-  "/mnt/f/project/V4_DK_SMPGM/build/src/game/module2/CMakeFiles/module2_static.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

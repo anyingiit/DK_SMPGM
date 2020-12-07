@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../mylib/libmodule1.a"
-  "../../../mylib/libmodule1.pdb"
+  "../../../mylib/libmodule2.a"
+  "../../../mylib/libmodule2.pdb"
   "CMakeFiles/module1_static.dir/src/module1.cpp.o"
 )
 

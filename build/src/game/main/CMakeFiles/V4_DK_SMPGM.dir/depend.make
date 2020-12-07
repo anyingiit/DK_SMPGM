@@ -4,4 +4,5 @@
 src/game/main/CMakeFiles/V4_DK_SMPGM.dir/src/main.cpp.o: ../src/game/main/include/main.h
 src/game/main/CMakeFiles/V4_DK_SMPGM.dir/src/main.cpp.o: ../src/game/main/src/main.cpp
 src/game/main/CMakeFiles/V4_DK_SMPGM.dir/src/main.cpp.o: ../src/game/module1/include/module1.h
+src/game/main/CMakeFiles/V4_DK_SMPGM.dir/src/main.cpp.o: ../src/game/module2/include/module2.h
 

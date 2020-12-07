@@ -1,4 +1,4 @@
-# Install script for directory: /mnt/f/project/V4_DK_SMPGM/src/game
+# Install script for directory: /mnt/f/project/V4_DK_SMPGM/src/game/module2
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -35,20 +35,5 @@ endif()
 # Is this installation the result of a crosscompile?
 if(NOT DEFINED CMAKE_CROSSCOMPILING)
   set(CMAKE_CROSSCOMPILING "FALSE")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
-  include("/mnt/f/project/V4_DK_SMPGM/build/src/game/module1/cmake_install.cmake")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
-  include("/mnt/f/project/V4_DK_SMPGM/build/src/game/module2/cmake_install.cmake")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
-  include("/mnt/f/project/V4_DK_SMPGM/build/src/game/main/cmake_install.cmake")
 endif()
 

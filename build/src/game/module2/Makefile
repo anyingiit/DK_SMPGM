@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/f/project/V4_DK_SMPGM/build/CMakeFiles /mnt/f/project/V4_DK_SMPGM/build/CMakeFiles/progress.marks
-	$(MAKE) -f CMakeFiles/Makefile2 all
+	cd /mnt/f/project/V4_DK_SMPGM/build && $(CMAKE_COMMAND) -E cmake_progress_start /mnt/f/project/V4_DK_SMPGM/build/CMakeFiles /mnt/f/project/V4_DK_SMPGM/build/src/game/module2/CMakeFiles/progress.marks
+	cd /mnt/f/project/V4_DK_SMPGM/build && $(MAKE) -f CMakeFiles/Makefile2 src/game/module2/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/f/project/V4_DK_SMPGM/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	$(MAKE) -f CMakeFiles/Makefile2 clean
+	cd /mnt/f/project/V4_DK_SMPGM/build && $(MAKE) -f CMakeFiles/Makefile2 src/game/module2/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,57 +97,60 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	$(MAKE) -f CMakeFiles/Makefile2 preinstall
+	cd /mnt/f/project/V4_DK_SMPGM/build && $(MAKE) -f CMakeFiles/Makefile2 src/game/module2/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	$(MAKE) -f CMakeFiles/Makefile2 preinstall
+	cd /mnt/f/project/V4_DK_SMPGM/build && $(MAKE) -f CMakeFiles/Makefile2 src/game/module2/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /mnt/f/project/V4_DK_SMPGM/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
-#=============================================================================
-# Target rules for targets named module1_static
+# Convenience name for target.
+src/game/module2/CMakeFiles/module2_static.dir/rule:
+	cd /mnt/f/project/V4_DK_SMPGM/build && $(MAKE) -f CMakeFiles/Makefile2 src/game/module2/CMakeFiles/module2_static.dir/rule
+.PHONY : src/game/module2/CMakeFiles/module2_static.dir/rule
 
-# Build rule for target.
-module1_static: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 module1_static
-.PHONY : module1_static
+# Convenience name for target.
+module2_static: src/game/module2/CMakeFiles/module2_static.dir/rule
 
-# fast build rule for target.
-module1_static/fast:
-	$(MAKE) -f src/game/module1/CMakeFiles/module1_static.dir/build.make src/game/module1/CMakeFiles/module1_static.dir/build
-.PHONY : module1_static/fast
-
-#=============================================================================
-# Target rules for targets named module2_static
-
-# Build rule for target.
-module2_static: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 module2_static
 .PHONY : module2_static
 
 # fast build rule for target.
 module2_static/fast:
-	$(MAKE) -f src/game/module2/CMakeFiles/module2_static.dir/build.make src/game/module2/CMakeFiles/module2_static.dir/build
+	cd /mnt/f/project/V4_DK_SMPGM/build && $(MAKE) -f src/game/module2/CMakeFiles/module2_static.dir/build.make src/game/module2/CMakeFiles/module2_static.dir/build
 .PHONY : module2_static/fast
 
-#=============================================================================
-# Target rules for targets named V4_DK_SMPGM
+src/module2.o: src/module2.cpp.o
 
-# Build rule for target.
-V4_DK_SMPGM: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 V4_DK_SMPGM
-.PHONY : V4_DK_SMPGM
+.PHONY : src/module2.o
 
-# fast build rule for target.
-V4_DK_SMPGM/fast:
-	$(MAKE) -f src/game/main/CMakeFiles/V4_DK_SMPGM.dir/build.make src/game/main/CMakeFiles/V4_DK_SMPGM.dir/build
-.PHONY : V4_DK_SMPGM/fast
+# target to build an object file
+src/module2.cpp.o:
+	cd /mnt/f/project/V4_DK_SMPGM/build && $(MAKE) -f src/game/module2/CMakeFiles/module2_static.dir/build.make src/game/module2/CMakeFiles/module2_static.dir/src/module2.cpp.o
+.PHONY : src/module2.cpp.o
+
+src/module2.i: src/module2.cpp.i
+
+.PHONY : src/module2.i
+
+# target to preprocess a source file
+src/module2.cpp.i:
+	cd /mnt/f/project/V4_DK_SMPGM/build && $(MAKE) -f src/game/module2/CMakeFiles/module2_static.dir/build.make src/game/module2/CMakeFiles/module2_static.dir/src/module2.cpp.i
+.PHONY : src/module2.cpp.i
+
+src/module2.s: src/module2.cpp.s
+
+.PHONY : src/module2.s
+
+# target to generate assembly for a file
+src/module2.cpp.s:
+	cd /mnt/f/project/V4_DK_SMPGM/build && $(MAKE) -f src/game/module2/CMakeFiles/module2_static.dir/build.make src/game/module2/CMakeFiles/module2_static.dir/src/module2.cpp.s
+.PHONY : src/module2.cpp.s
 
 # Help Target
 help:
@@ -157,9 +160,10 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... module1_static"
 	@echo "... module2_static"
-	@echo "... V4_DK_SMPGM"
+	@echo "... src/module2.o"
+	@echo "... src/module2.i"
+	@echo "... src/module2.s"
 .PHONY : help
 
 
@@ -171,6 +175,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /mnt/f/project/V4_DK_SMPGM/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -1,27 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
       <config projectName="V4_DK_SMPGM" targetName="V4_DK_SMPGM" />
+      <config projectName="V4_DK_SMPGM" targetName="module2_static" />
+      <config projectName="V4_DK_SMPGM" targetName="game_static" />
       <config projectName="V4_DK_SMPGM" targetName="module1_static" />
     </generated>
   </component>
-  <component name="CMakeSettings" AUTO_RELOAD="true">
+  <component name="CMakeSettings">
     <configurations>
       <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" GENERATION_DIR="build" ENABLED="true" />
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b2126f4b-4fde-4d9c-8160-f7a5929652a4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/PreLoad.cmake" afterDir="false" />
+    <list default="true" id="ad996920-8871-48c5-9bfc-f6a56bfe7937" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/V4_DK_SMPGM.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/game/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/game/game.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/game.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/game/game.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/game.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/src/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,21 +28,11 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="CMakeLists.txt" />
-      </list>
-    </option>
-  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="OCResolveContextSettings">
-    <option name="configuration" value="0-Debug-V4_DK_SMPGM" />
-  </component>
-  <component name="ProjectId" id="1lETVqjSpk149nOmISwunfeoX74" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="1lKlFcdVWIzuIttMoTW2WG4C0R1" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -55,29 +42,25 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../V3_DK_SMPGM" />
-    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="CMakeSettings" />
   </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\project\V4_DK_SMPGM\build" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\project\V4_DK_SMPGM\src" />
-      <recent name="F:\project\V4_DK_SMPGM\src\player\src" />
-      <recent name="F:\project\V4_DK_SMPGM\src\player\include" />
-      <recent name="F:\project\V4_DK_SMPGM\src\game\system\storage\include" />
-      <recent name="F:\project\V4_DK_SMPGM\src\game\system\storage\src" />
-    </key>
-  </component>
-  <component name="RunManager">
-    <configuration name="V4_DK_SMPGM" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
+  <component name="RunManager" selected="CMake Application.V4_DK_SMPGM">
+    <configuration name="V4_DK_SMPGM" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="V4_DK_SMPGM" TARGET_NAME="V4_DK_SMPGM" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="V4_DK_SMPGM" RUN_TARGET_NAME="V4_DK_SMPGM">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" WORKING_DIR="file://$PROJECT_DIR$" PASS_PARENT_ENVS_2="true" RUN_PATH="$PROJECT_DIR$/build/Bin/V4_DK_SMPGM">
+    <configuration name="game_static" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="V4_DK_SMPGM" TARGET_NAME="game_static" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="module1_static" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="V4_DK_SMPGM" TARGET_NAME="module1_static" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="module2_static" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="V4_DK_SMPGM" TARGET_NAME="module2_static" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -87,28 +70,23 @@
         <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="CMake Application.game_static" />
+      <item itemvalue="CMake Application.module1_static" />
+      <item itemvalue="CMake Application.module2_static" />
+      <item itemvalue="CMake Application.V4_DK_SMPGM" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b2126f4b-4fde-4d9c-8160-f7a5929652a4" name="Default Changelist" comment="" />
-      <created>1607161277253</created>
+      <changelist id="ad996920-8871-48c5-9bfc-f6a56bfe7937" name="Default Changelist" comment="" />
+      <created>1607353562894</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1607161277253</updated>
-      <workItem from="1607161279196" duration="2701000" />
-      <workItem from="1607251613532" duration="15371000" />
-      <workItem from="1607321152112" duration="89000" />
-      <workItem from="1607321265285" duration="12000" />
-      <workItem from="1607321289149" duration="1403000" />
-      <workItem from="1607322846042" duration="11314000" />
-      <workItem from="1607348140413" duration="340000" />
-      <workItem from="1607348507290" duration="30000" />
-      <workItem from="1607348782361" duration="77000" />
-      <workItem from="1607348862812" duration="643000" />
-      <workItem from="1607349512817" duration="510000" />
-      <workItem from="1607350029025" duration="50000" />
-      <workItem from="1607350081966" duration="371000" />
+      <updated>1607353562894</updated>
+      <workItem from="1607353566463" duration="49000" />
+      <workItem from="1607353627486" duration="19000" />
     </task>
     <servers />
   </component>
@@ -125,6 +103,5 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

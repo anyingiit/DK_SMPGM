@@ -110,6 +110,48 @@ depend:
 	cd /mnt/f/project/V4_DK_SMPGM/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
+# Convenience name for target.
+src/game/CMakeFiles/game.dir/rule:
+	cd /mnt/f/project/V4_DK_SMPGM/build && $(MAKE) -f CMakeFiles/Makefile2 src/game/CMakeFiles/game.dir/rule
+.PHONY : src/game/CMakeFiles/game.dir/rule
+
+# Convenience name for target.
+game: src/game/CMakeFiles/game.dir/rule
+
+.PHONY : game
+
+# fast build rule for target.
+game/fast:
+	cd /mnt/f/project/V4_DK_SMPGM/build && $(MAKE) -f src/game/CMakeFiles/game.dir/build.make src/game/CMakeFiles/game.dir/build
+.PHONY : game/fast
+
+game.o: game.cpp.o
+
+.PHONY : game.o
+
+# target to build an object file
+game.cpp.o:
+	cd /mnt/f/project/V4_DK_SMPGM/build && $(MAKE) -f src/game/CMakeFiles/game.dir/build.make src/game/CMakeFiles/game.dir/game.cpp.o
+.PHONY : game.cpp.o
+
+game.i: game.cpp.i
+
+.PHONY : game.i
+
+# target to preprocess a source file
+game.cpp.i:
+	cd /mnt/f/project/V4_DK_SMPGM/build && $(MAKE) -f src/game/CMakeFiles/game.dir/build.make src/game/CMakeFiles/game.dir/game.cpp.i
+.PHONY : game.cpp.i
+
+game.s: game.cpp.s
+
+.PHONY : game.s
+
+# target to generate assembly for a file
+game.cpp.s:
+	cd /mnt/f/project/V4_DK_SMPGM/build && $(MAKE) -f src/game/CMakeFiles/game.dir/build.make src/game/CMakeFiles/game.dir/game.cpp.s
+.PHONY : game.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -118,6 +160,10 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... game"
+	@echo "... game.o"
+	@echo "... game.i"
+	@echo "... game.s"
 .PHONY : help
 
 

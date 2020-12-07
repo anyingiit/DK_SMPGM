@@ -13,86 +13,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b2126f4b-4fde-4d9c-8160-f7a5929652a4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/game/game.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/game/game.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeCache.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/3.16.3/CMakeCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/3.16.3/CMakeCXXCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/3.16.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/3.16.3/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/3.16.3/CMakeSystem.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/3.16.3/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/3.16.3/CompilerIdC/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/3.16.3/CompilerIdCXX/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/CMakeOutput.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Makefile.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Makefile2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/cmake.check_cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/progress.marks" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/cmake_install.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/mylib/libmodule1.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/mylib/libmodule2.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/mylib/libmodule2_static.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/CMakeFiles/progress.marks" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/cmake_install.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/game/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/game/CMakeFiles/progress.marks" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/game/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/game/cmake_install.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/game/main/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/game/main/CMakeFiles/V4_DK_SMPGM.dir/CXX.includecache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/game/main/CMakeFiles/V4_DK_SMPGM.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/game/main/CMakeFiles/V4_DK_SMPGM.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/game/main/CMakeFiles/V4_DK_SMPGM.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/game/main/CMakeFiles/V4_DK_SMPGM.dir/depend.internal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/game/main/CMakeFiles/V4_DK_SMPGM.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/game/main/CMakeFiles/V4_DK_SMPGM.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/game/main/CMakeFiles/V4_DK_SMPGM.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/game/main/CMakeFiles/V4_DK_SMPGM.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/game/main/CMakeFiles/V4_DK_SMPGM.dir/src/main.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/game/main/CMakeFiles/progress.marks" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/game/main/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/game/main/V4_DK_SMPGM" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/game/main/cmake_install.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/game/module1/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/game/module1/CMakeFiles/module1_static.dir/CXX.includecache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/game/module1/CMakeFiles/module1_static.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/game/module1/CMakeFiles/module1_static.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/game/module1/CMakeFiles/module1_static.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/game/module1/CMakeFiles/module1_static.dir/cmake_clean_target.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/game/module1/CMakeFiles/module1_static.dir/depend.internal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/game/module1/CMakeFiles/module1_static.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/game/module1/CMakeFiles/module1_static.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/game/module1/CMakeFiles/module1_static.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/game/module1/CMakeFiles/module1_static.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/game/module1/CMakeFiles/module1_static.dir/src/module1.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/game/module1/CMakeFiles/progress.marks" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/game/module1/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/game/module1/cmake_install.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/game/module2/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/game/module2/CMakeFiles/module2_static.dir/CXX.includecache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/game/module2/CMakeFiles/module2_static.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/game/module2/CMakeFiles/module2_static.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/game/module2/CMakeFiles/module2_static.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/game/module2/CMakeFiles/module2_static.dir/cmake_clean_target.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/game/module2/CMakeFiles/module2_static.dir/depend.internal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/game/module2/CMakeFiles/module2_static.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/game/module2/CMakeFiles/module2_static.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/game/module2/CMakeFiles/module2_static.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/game/module2/CMakeFiles/module2_static.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/game/module2/CMakeFiles/module2_static.dir/src/module2.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/game/module2/CMakeFiles/progress.marks" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/game/module2/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/game/module2/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Bin/V4_DK_SMPGM" beforeDir="false" afterPath="$PROJECT_DIR$/build/Bin/V4_DK_SMPGM" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/build/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/src/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/build/src/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/src/game/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/build/src/game/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/src/game/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/build/src/game/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/src/game/main/CMakeFiles/V4_DK_SMPGM.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/build/src/game/main/CMakeFiles/V4_DK_SMPGM.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/src/game/main/CMakeFiles/V4_DK_SMPGM.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/src/game/main/CMakeFiles/V4_DK_SMPGM.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/src/game/main/CMakeFiles/V4_DK_SMPGM.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/src/game/main/CMakeFiles/V4_DK_SMPGM.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/src/game/main/CMakeFiles/V4_DK_SMPGM.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/build/src/game/main/CMakeFiles/V4_DK_SMPGM.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/src/game/main/CMakeFiles/V4_DK_SMPGM.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/src/game/main/CMakeFiles/V4_DK_SMPGM.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/src/game/main/CMakeFiles/V4_DK_SMPGM.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/src/game/main/CMakeFiles/V4_DK_SMPGM.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/src/game/main/CMakeFiles/V4_DK_SMPGM.dir/src/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/src/game/main/CMakeFiles/V4_DK_SMPGM.dir/src/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/src/game/main/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/build/src/game/main/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/src/game/module1/CMakeFiles/module1_static.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/src/game/module1/CMakeFiles/module1_static.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/src/game/module2/CMakeFiles/module2_static.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/src/game/module2/CMakeFiles/module2_static.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/game/main/src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/main/src/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/game/module1/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/module1/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/game/module2/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/module2/CMakeLists.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,7 +113,7 @@
       <workItem from="1607321152112" duration="89000" />
       <workItem from="1607321265285" duration="12000" />
       <workItem from="1607321289149" duration="1403000" />
-      <workItem from="1607322846042" duration="3067000" />
+      <workItem from="1607322846042" duration="4368000" />
     </task>
     <servers />
   </component>

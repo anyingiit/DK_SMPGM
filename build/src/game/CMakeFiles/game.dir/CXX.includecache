@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/f/project/V4_DK_SMPGM/src/game/game.cpp
+game.h
+/mnt/f/project/V4_DK_SMPGM/src/game/game.h
+module1/include/module1.h
+/mnt/f/project/V4_DK_SMPGM/src/game/module1/include/module1.h
+module2/include/module2.h
+/mnt/f/project/V4_DK_SMPGM/src/game/module2/include/module2.h
+
+/mnt/f/project/V4_DK_SMPGM/src/game/game.h
+iostream
+-
+
+/mnt/f/project/V4_DK_SMPGM/src/game/module1/include/module1.h
+iostream
+-
+
+/mnt/f/project/V4_DK_SMPGM/src/game/module2/include/module2.h
+iostream
+-
+

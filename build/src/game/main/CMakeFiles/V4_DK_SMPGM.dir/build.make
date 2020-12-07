@@ -79,6 +79,7 @@ V4_DK_SMPGM_EXTERNAL_OBJECTS =
 
 Bin/V4_DK_SMPGM: src/game/main/CMakeFiles/V4_DK_SMPGM.dir/src/main.cpp.o
 Bin/V4_DK_SMPGM: src/game/main/CMakeFiles/V4_DK_SMPGM.dir/build.make
+Bin/V4_DK_SMPGM: Lib/libgame.a
 Bin/V4_DK_SMPGM: Lib/libmodule1.a
 Bin/V4_DK_SMPGM: Lib/libmodule2.a
 Bin/V4_DK_SMPGM: src/game/main/CMakeFiles/V4_DK_SMPGM.dir/link.txt

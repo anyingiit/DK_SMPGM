@@ -126,6 +126,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "src/game/CMakeFiles/game.dir/DependInfo.cmake"
   "src/game/module1/CMakeFiles/module1_static.dir/DependInfo.cmake"
   "src/game/module2/CMakeFiles/module2_static.dir/DependInfo.cmake"
   "src/game/main/CMakeFiles/V4_DK_SMPGM.dir/DependInfo.cmake"

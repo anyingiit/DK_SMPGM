@@ -89,6 +89,7 @@ src/clean: src/game/clean
 # Directory level rules for directory src/game
 
 # Recursive "all" directory target.
+src/game/all: src/game/CMakeFiles/game.dir/all
 src/game/all: src/game/module1/all
 src/game/all: src/game/module2/all
 src/game/all: src/game/main/all
@@ -103,6 +104,7 @@ src/game/preinstall: src/game/main/preinstall
 .PHONY : src/game/preinstall
 
 # Recursive "clean" directory target.
+src/game/clean: src/game/CMakeFiles/game.dir/clean
 src/game/clean: src/game/module1/clean
 src/game/clean: src/game/module2/clean
 src/game/clean: src/game/main/clean
@@ -164,13 +166,41 @@ src/game/module2/clean: src/game/module2/CMakeFiles/module2_static.dir/clean
 .PHONY : src/game/module2/clean
 
 #=============================================================================
+# Target rules for target src/game/CMakeFiles/game.dir
+
+# All Build rule for target.
+src/game/CMakeFiles/game.dir/all: src/game/module1/CMakeFiles/module1_static.dir/all
+src/game/CMakeFiles/game.dir/all: src/game/module2/CMakeFiles/module2_static.dir/all
+	$(MAKE) -f src/game/CMakeFiles/game.dir/build.make src/game/CMakeFiles/game.dir/depend
+	$(MAKE) -f src/game/CMakeFiles/game.dir/build.make src/game/CMakeFiles/game.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/f/project/V4_DK_SMPGM/build/CMakeFiles --progress-num=3,4 "Built target game"
+.PHONY : src/game/CMakeFiles/game.dir/all
+
+# Build rule for subdir invocation for target.
+src/game/CMakeFiles/game.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/f/project/V4_DK_SMPGM/build/CMakeFiles 6
+	$(MAKE) -f CMakeFiles/Makefile2 src/game/CMakeFiles/game.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/f/project/V4_DK_SMPGM/build/CMakeFiles 0
+.PHONY : src/game/CMakeFiles/game.dir/rule
+
+# Convenience name for target.
+game: src/game/CMakeFiles/game.dir/rule
+
+.PHONY : game
+
+# clean rule for target.
+src/game/CMakeFiles/game.dir/clean:
+	$(MAKE) -f src/game/CMakeFiles/game.dir/build.make src/game/CMakeFiles/game.dir/clean
+.PHONY : src/game/CMakeFiles/game.dir/clean
+
+#=============================================================================
 # Target rules for target src/game/module1/CMakeFiles/module1_static.dir
 
 # All Build rule for target.
 src/game/module1/CMakeFiles/module1_static.dir/all:
 	$(MAKE) -f src/game/module1/CMakeFiles/module1_static.dir/build.make src/game/module1/CMakeFiles/module1_static.dir/depend
 	$(MAKE) -f src/game/module1/CMakeFiles/module1_static.dir/build.make src/game/module1/CMakeFiles/module1_static.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/f/project/V4_DK_SMPGM/build/CMakeFiles --progress-num=3,4 "Built target module1_static"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/f/project/V4_DK_SMPGM/build/CMakeFiles --progress-num=5,6 "Built target module1_static"
 .PHONY : src/game/module1/CMakeFiles/module1_static.dir/all
 
 # Build rule for subdir invocation for target.
@@ -197,7 +227,7 @@ src/game/module1/CMakeFiles/module1_static.dir/clean:
 src/game/module2/CMakeFiles/module2_static.dir/all:
 	$(MAKE) -f src/game/module2/CMakeFiles/module2_static.dir/build.make src/game/module2/CMakeFiles/module2_static.dir/depend
 	$(MAKE) -f src/game/module2/CMakeFiles/module2_static.dir/build.make src/game/module2/CMakeFiles/module2_static.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/f/project/V4_DK_SMPGM/build/CMakeFiles --progress-num=5,6 "Built target module2_static"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/f/project/V4_DK_SMPGM/build/CMakeFiles --progress-num=7,8 "Built target module2_static"
 .PHONY : src/game/module2/CMakeFiles/module2_static.dir/all
 
 # Build rule for subdir invocation for target.
@@ -221,6 +251,7 @@ src/game/module2/CMakeFiles/module2_static.dir/clean:
 # Target rules for target src/game/main/CMakeFiles/V4_DK_SMPGM.dir
 
 # All Build rule for target.
+src/game/main/CMakeFiles/V4_DK_SMPGM.dir/all: src/game/CMakeFiles/game.dir/all
 src/game/main/CMakeFiles/V4_DK_SMPGM.dir/all: src/game/module1/CMakeFiles/module1_static.dir/all
 src/game/main/CMakeFiles/V4_DK_SMPGM.dir/all: src/game/module2/CMakeFiles/module2_static.dir/all
 	$(MAKE) -f src/game/main/CMakeFiles/V4_DK_SMPGM.dir/build.make src/game/main/CMakeFiles/V4_DK_SMPGM.dir/depend
@@ -230,7 +261,7 @@ src/game/main/CMakeFiles/V4_DK_SMPGM.dir/all: src/game/module2/CMakeFiles/module
 
 # Build rule for subdir invocation for target.
 src/game/main/CMakeFiles/V4_DK_SMPGM.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/f/project/V4_DK_SMPGM/build/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/f/project/V4_DK_SMPGM/build/CMakeFiles 8
 	$(MAKE) -f CMakeFiles/Makefile2 src/game/main/CMakeFiles/V4_DK_SMPGM.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/f/project/V4_DK_SMPGM/build/CMakeFiles 0
 .PHONY : src/game/main/CMakeFiles/V4_DK_SMPGM.dir/rule

@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
       <config projectName="V4_DK_SMPGM" targetName="V4_DK_SMPGM" />
@@ -8,17 +11,17 @@
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
     <configurations>
-      <configuration PROFILE_NAME="Debug-MinGW" CONFIG_NAME="Debug" TOOLCHAIN_NAME="MinGW" GENERATION_DIR="build" ENABLED="true" />
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" GENERATION_DIR="build" ENABLED="true" />
     </configurations>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b2126f4b-4fde-4d9c-8160-f7a5929652a4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/PreLoad.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/game/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/game/main/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/game/main/include/main.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/include/main.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/game/main/src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/src/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game/game.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/game.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game/game.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/game.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/src/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +55,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../V3_DK_SMPGM" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="CMakeSettings" />
   </component>
@@ -69,14 +72,19 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="V4_DK_SMPGM" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" RUN_PATH="$PROJECT_DIR$/build/src/game/main/V4_DK_SMPGM.exe" EXPLICIT_BUILD_TARGET_NAME="all">
+    <configuration name="V4_DK_SMPGM" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" WORKING_DIR="file://$PROJECT_DIR$" PASS_PARENT_ENVS_2="true" RUN_PATH="$PROJECT_DIR$/build/Bin/V4_DK_SMPGM">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
   </component>
@@ -93,7 +101,14 @@
       <workItem from="1607321152112" duration="89000" />
       <workItem from="1607321265285" duration="12000" />
       <workItem from="1607321289149" duration="1403000" />
-      <workItem from="1607322846042" duration="6916000" />
+      <workItem from="1607322846042" duration="11314000" />
+      <workItem from="1607348140413" duration="340000" />
+      <workItem from="1607348507290" duration="30000" />
+      <workItem from="1607348782361" duration="77000" />
+      <workItem from="1607348862812" duration="643000" />
+      <workItem from="1607349512817" duration="510000" />
+      <workItem from="1607350029025" duration="50000" />
+      <workItem from="1607350081966" duration="371000" />
     </task>
     <servers />
   </component>

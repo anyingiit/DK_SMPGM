@@ -7,5 +7,7 @@
 //#include "module1.h"
 int main(){
     module1_module2_print();
+    module1_hello();
+    module2_hello();
     return 0;
 }

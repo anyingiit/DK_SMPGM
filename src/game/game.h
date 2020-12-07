@@ -14,5 +14,7 @@
 //#endif //V4_DK_SMPGM_GAME_H
 
 #include <iostream>
+#include "module1/include/module1.h"
+#include "module2/include/module2.h"
 using namespace std;
 void module1_module2_print();

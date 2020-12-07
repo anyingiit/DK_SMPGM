@@ -15,8 +15,8 @@ add_subdirectory(src)
 #message(STATUS "LIBS:" ${LIBS})
 add_dependencies(#按照由依赖和被依赖的关系构造, 可以解决依赖关系
         V4_DK_SMPGM
-        game
+        game_static
 #        module1_static
 #        module2_static
 )
-TARGET_LINK_LIBRARIES(V4_DK_SMPGM game)
+TARGET_LINK_LIBRARIES(V4_DK_SMPGM game_static)

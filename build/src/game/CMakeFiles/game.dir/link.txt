@@ -1,2 +1,0 @@
-/usr/bin/ar qc ../../Lib/libgame.a  CMakeFiles/game.dir/game.cpp.o
-/usr/bin/ranlib ../../Lib/libgame.a

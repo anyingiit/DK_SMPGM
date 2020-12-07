@@ -1,9 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/V4_DK_SMPGM.dir/src/main.cpp.obj"
-  "V4_DK_SMPGM.exe"
-  "V4_DK_SMPGM.exe.manifest"
+  "CMakeFiles/V4_DK_SMPGM.dir/src/main.cpp.o"
+  "V4_DK_SMPGM"
   "V4_DK_SMPGM.pdb"
-  "libV4_DK_SMPGM.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

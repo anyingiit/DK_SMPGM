@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "F:/project/V4_DK_SMPGM/src/game/module1/src/module1.cpp" "F:/project/V4_DK_SMPGM/build/src/game/module1/CMakeFiles/module1_static.dir/src/module1.cpp.obj"
+  "/mnt/f/project/V4_DK_SMPGM/src/game/module1/src/module1.cpp" "/mnt/f/project/V4_DK_SMPGM/build/src/game/module1/CMakeFiles/module1_static.dir/src/module1.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
+  "../../../Bin/V4_DK_SMPGM"
+  "../../../Bin/V4_DK_SMPGM.pdb"
   "CMakeFiles/V4_DK_SMPGM.dir/src/main.cpp.o"
-  "V4_DK_SMPGM"
-  "V4_DK_SMPGM.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

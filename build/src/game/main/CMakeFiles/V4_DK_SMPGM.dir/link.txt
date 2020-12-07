@@ -1,1 +1,1 @@
-/usr/bin/c++     CMakeFiles/V4_DK_SMPGM.dir/src/main.cpp.o  -o V4_DK_SMPGM  ../../../mylib/libmodule2.a ../../../mylib/libmodule2_static.a 
+/usr/bin/c++     CMakeFiles/V4_DK_SMPGM.dir/src/main.cpp.o  -o ../../../Bin/V4_DK_SMPGM  ../../../Lib/libmodule1.a ../../../Lib/libmodule2.a 

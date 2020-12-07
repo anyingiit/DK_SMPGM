@@ -13,31 +13,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b2126f4b-4fde-4d9c-8160-f7a5929652a4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/Lib/libgame.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/build/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/game/CMakeFiles/game.dir/CXX.includecache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/game/CMakeFiles/game.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/game/CMakeFiles/game.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/game/CMakeFiles/game.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/game/CMakeFiles/game.dir/cmake_clean_target.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/game/CMakeFiles/game.dir/depend.internal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/game/CMakeFiles/game.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/game/CMakeFiles/game.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/game/CMakeFiles/game.dir/game.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/game/CMakeFiles/game.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/game/CMakeFiles/game.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/game/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/build/src/game/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/game/main/CMakeFiles/V4_DK_SMPGM.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/src/game/main/CMakeFiles/V4_DK_SMPGM.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/game/main/CMakeFiles/V4_DK_SMPGM.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/src/game/main/CMakeFiles/V4_DK_SMPGM.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/game/main/CMakeFiles/V4_DK_SMPGM.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/src/game/main/CMakeFiles/V4_DK_SMPGM.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/game/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game/main/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game/main/include/main.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/include/main.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game/main/src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/src/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,11 +61,11 @@
       <recent name="F:\project\V4_DK_SMPGM\build" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\project\V4_DK_SMPGM\src" />
       <recent name="F:\project\V4_DK_SMPGM\src\player\src" />
       <recent name="F:\project\V4_DK_SMPGM\src\player\include" />
       <recent name="F:\project\V4_DK_SMPGM\src\game\system\storage\include" />
       <recent name="F:\project\V4_DK_SMPGM\src\game\system\storage\src" />
-      <recent name="F:\project\V4_DK_SMPGM\src\game\system\storage" />
     </key>
   </component>
   <component name="RunManager">
@@ -112,7 +93,7 @@
       <workItem from="1607321152112" duration="89000" />
       <workItem from="1607321265285" duration="12000" />
       <workItem from="1607321289149" duration="1403000" />
-      <workItem from="1607322846042" duration="5003000" />
+      <workItem from="1607322846042" duration="6916000" />
     </task>
     <servers />
   </component>

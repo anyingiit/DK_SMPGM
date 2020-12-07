@@ -1,6 +1,6 @@
 //#include "../include/main.h"
 #include <main.h>
-#include "../../game.h"
+#include "../../game/game.h"
 //#include <module1.h>
 //#include <module2.h>
 

@@ -1,0 +1,6 @@
+include_directories(./include)
+#include_directories(../)
+aux_source_directory(./src DIR_SAYHELLO_SRCS)
+add_library(sayHello_static STATIC ${DIR_SAYHELLO_SRCS})
+set_target_properties(sayHello_static PROPERTIES OUTPUT_NAME "sayHello")
+#target_link_libraries(sayHello_static system_static)

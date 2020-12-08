@@ -1,4 +1,4 @@
-//#include "../include/main.h"
+//#include "../include/Main.h"
 #include <main.h>
 #include "../../game/game.h"
 //#include <module1.h>

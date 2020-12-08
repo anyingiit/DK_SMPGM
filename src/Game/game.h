@@ -6,7 +6,7 @@
 //#define V4_DK_SMPGM_GAME_H
 //
 //
-//class game {
+//class Game {
 //
 //};
 //

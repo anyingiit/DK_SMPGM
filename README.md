@@ -1,26 +1,64 @@
-# 电科-简单MUD游戏
+<!-- Source: Best-README-Template BLANK_README (Unlicense) — https://github.com/othneildrew/Best-README-Template -->
+<a id="readme-top"></a>
 
-## 亮点
+# DK SMPGM
 
-1. 协作项目
-2. 使用C/C++构建
-3. 纯自行编写`CMakeLists.txt`规则
+Dk smpgm has no README describing its purpose; its manifest (CMakeLists.txt) marks it as a C/C++ codebase, built with C++.
 
-## 构建
+[![CI](https://github.com/anyingiit/DK_SMPGM/actions/workflows/ci.yml/badge.svg)](https://github.com/anyingiit/DK_SMPGM/actions/workflows/ci.yml)
+[![License](https://img.shields.io/github/license/anyingiit/DK_SMPGM)](LICENSE)
 
-```shell
-cd cmake-build-debug
-cmake ../
-make
-./Bin/V4_DK_SMPGM
+[Report a bug](https://github.com/anyingiit/DK_SMPGM/issues/new?template=bug_report.yml) · [Request a feature](https://github.com/anyingiit/DK_SMPGM/issues/new?template=feature_request.yml)
+
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li><a href="#about-the-project">About The Project</a></li>
+    <li><a href="#getting-started">Getting Started</a></li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ol>
+</details>
+
+## About The Project
+
+Dk smpgm has no README describing its purpose; its manifest (CMakeLists.txt) marks it as a C/C++ codebase, built with C++.
+
+See the [open issues](https://github.com/anyingiit/DK_SMPGM/issues) for planned features and known issues.
+
+## Getting Started
+
+### Prerequisites
+
+- Git
+
+### Installation
+
+```sh
+git clone https://github.com/anyingiit/DK_SMPGM.git
+cd DK_SMPGM
 ```
 
-### 技术结构
+## Usage
 
-![](https://anying-picture-universal-public-read.oss-cn-beijing.aliyuncs.com/DK_SMPGM/%E6%8A%80%E6%9C%AF%E7%BB%93%E6%9E%84.png)
+```sh
+DK_SMPGM --help
+```
 
+## Contributing
 
+Contributions are welcome. Read [CONTRIBUTING.md](CONTRIBUTING.md) for how to open an issue or a pull request, and [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) for the standards expected of everyone taking part.
 
-enjoy! :laughing:
+Please do not report security issues in public issues or pull requests. [SECURITY.md](SECURITY.md) explains how to report them privately.
 
-`Powered by DK-PRG-TEAM`
+## License
+
+Distributed under the MIT License. See [LICENSE](LICENSE) for details.
+
+## Contact
+
+Project link: [https://github.com/anyingiit/DK_SMPGM](https://github.com/anyingiit/DK_SMPGM)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
